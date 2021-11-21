@@ -6,7 +6,7 @@ type User {
     username: String
     email: String
     bookCount:Int
-    savedBooks: []
+    savedBooks: [Book]
 }
 
 type Book {
